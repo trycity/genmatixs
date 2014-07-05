@@ -46,6 +46,6 @@
 	top:1px;
 }
 
-.button::visited {
-    color: #00FF00;
+.button:visited {
+   /*color: #00FF00;*/
 }
