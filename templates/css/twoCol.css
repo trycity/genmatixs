@@ -1,0 +1,26 @@
+#head {
+	text-align: center;
+}
+
+#nav {
+	float: left;
+	width: 20%
+}
+
+#section {
+	text-align: center;
+	float: left;
+	padding-left: 1em;
+	width: 75%
+}
+
+#article {
+	float: left;
+	text-align: center;
+	padding-left: 1em;
+	width: 75%
+}
+
+
+	
+	
