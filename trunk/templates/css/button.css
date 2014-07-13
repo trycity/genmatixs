@@ -49,3 +49,9 @@
 .button:visited {
    /*color: #00FF00;*/
 }
+
+#next {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
