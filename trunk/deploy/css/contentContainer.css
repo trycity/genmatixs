@@ -1,0 +1,8 @@
+#contentContainer{
+	width: 550px;
+	height: 350px;
+	border-style: solid;
+   border-width: medium;
+	overflow: hidden;
+	background-color: #FFFF00;
+}
