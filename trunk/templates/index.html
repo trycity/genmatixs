@@ -5,7 +5,7 @@
 <head>
 	<meta name="Genmatixs front page">
 	<meta name="keywords" content="genmatixs, bioinformatics, genetic, algorithm">
-	<meta name="author" content="ZShahid" >
+	<meta name="author" content="Imran Khan" >
 	
 	<title>Genmatixs.com</title>
 	<link rel="icon" type="image/ico" href="images/logo/favicon.ico">
@@ -13,14 +13,14 @@
 	<link rel="stylesheet" type="text/css" href="css/img.css">
 	<link rel="stylesheet" type="text/css" href="css/div.css">
 	<link rel="stylesheet" type="text/css" href="css/twoCol.css">
-	<link rel="stylesheet" type="text/css" href="css/contentContainer">
-	
+	<link rel="stylesheet" type="text/css" href="css/contentContainer.css">
+	<link rel="stylesheet" type="text/css" href="css/canvasStyle.css">
 </head>
 <body>
 <style>
 body {
     
-    background-image:url('images/background/background1_reflect.jpeg');
+    background-image:url('images/background/dna.jpg');
     background-size: 100%;
 }
 </style>
@@ -30,7 +30,6 @@ body {
     		<img src="images/logo/cooltext1642780133.png" alt="genmatixs" class="center"/>
   		</a></h1>
   </div> 
-  
   
   <div id="menu" style="text-align:center" class="menu"> 
 		<h5><a href="http://www.genmatixs.com/" class="button">Home</a></h5>
@@ -43,11 +42,16 @@ body {
 		
 	</div>
 	
-	<!-div id='section' style="height:400px; width:900px; text-align:center; position:relative;">
-		<!-h5 id="next" style="float:right"><!-p class="button" onclick="myFunction()">
-		<!-/p><!-/h5>
-		<!-/div>
-			
+	<canvas id="canvas_bg" width="750" height="350"></canvas>
+   <canvas id="canvas" width="750" height="350"> 
+   
+   <script src= "./js/vector2D.js"></script>
+   <script src= "./js/getRandomColor.js"></script>
+   <script src= "./js/molecules2.js"></script>
+   <script src= "./js/ball.js"></script>
+   <script src= "./js/wall.js"></script>
+   <!script src= "./js/wall-bouncing.js"></script>
+   
 				
 </body>
 </html>
