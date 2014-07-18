@@ -12,3 +12,7 @@ img.reflect{
     filter: FlipH;
     -ms-filter: "FlipH";
 }
+
+img.middle{
+	vertical-align:middle;
+}
