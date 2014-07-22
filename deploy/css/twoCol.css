@@ -4,23 +4,47 @@
 
 #menu {
 	float: left;
-	width: 10%
+	width: 10%;
 }
 
 #section {
 	height: 350px;
    width: 750px;
 	border-style: solid;
-   border-width: medium;;
-	border-color: black;
+   border-width: thin;
+	border-color: transparent;;
 	margin-left: 50px;
 	float: left;
-	width: 85%
+	width: 75%;
 }
 
 #GA {
-	color: #520000;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	font-style:normal;
+	float: left;
+	color: #FF0000;
 }
+
+
+#subheader{
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	font-style:normal;
+	color: #CC0000;
+}
+
+#subheader2{
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	color: black;
+}
+	
+	
 
 
 

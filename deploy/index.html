@@ -5,30 +5,41 @@
 <head>
 	<meta name="Genmatixs front page">
 	<meta name="keywords" content="genmatixs, bioinformatics, genetic, algorithm">
-	<meta name="author" content="ZShahid" >
+	<meta name="author" content="Imran Khan" >
 	
 	<title>Genmatixs.com</title>
 	<link rel="icon" type="image/ico" href="images/logo/favicon.ico">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src= "./js/jquery.fittext.js"></script>
+  	<script src= "./js/jquery.lettering.js"></script>
+  	<script src= "./js/text_animation.js"></script>
+  	<script src= "./js/jquery.textillate.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/button.css">
 	<link rel="stylesheet" type="text/css" href="css/img.css">
 	<link rel="stylesheet" type="text/css" href="css/div.css">
 	<link rel="stylesheet" type="text/css" href="css/twoCol.css">
-	<link rel="stylesheet" type="text/css" href="css/contentContainer.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/canvasStyle.css">
+	
 </head>
 <body>
 <style>
 body {
     
     background-image:url('images/background/dna.jpg');
-    background-size: 100%;
+    background-size: cover;
+    background-repeat" no-repeat;
 }
 </style>
 
 	<div id="header" style="text-align:center" class="header">
 		<h1><a href="http://www.genmatixs.com">
-    		<img src="images/logo/cooltext1642780133.png" alt="genmatixs" class="center"/>
+    		<img src="images/logo/logo.png" alt="genmatixs" class="center" onload="$(this).fadeIn();"/>
   		</a></h1>
+  		
+  		<h2 id="subheader" class="tlt">2-D Elastic Collision simulation</h2>
+  		
   </div> 
   
   <div id="menu" style="text-align:center" class="menu"> 
@@ -41,6 +52,7 @@ body {
 		<h5><a href="#" class="button">Contact</a></h5>	
 	</div>
 	
+	
 	<canvas id="canvas_bg" width="800" height="400"></canvas>
    <canvas id="canvas" width="800" height="400"> 
    
@@ -48,8 +60,8 @@ body {
    <script src= "./js/getRandomColor.js"></script>
    <script src= "./js/molecules2.js"></script>
    <script src= "./js/ball.js"></script>
-   <script src= "./js/wall.js"></script>
-   <!script src= "./js/wall-bouncing.js"></script>
+   <script src= "./js/wall.js"></script>      
+   
    
 				
 </body>
